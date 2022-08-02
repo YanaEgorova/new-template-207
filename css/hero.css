@@ -144,20 +144,9 @@
         position: relative;
     }
     .contacts__block {
-        width: 50%;
+        width: 70%;
         margin-left: auto;
         text-align: left;
-    }
-    .contacts__img {
-        display: block;
-        width: 40%;
-        height: 100%;
-        object-fit: cover;
-        border-right: 1rem solid var(--second-brand-color);
-        border-bottom: 1rem solid var(--second-brand-color);
-        position: absolute;
-        top: 0;
-        left: 0;
     }
     .contacts__box {
         max-width: 60%;
@@ -177,6 +166,9 @@
         top: 50%;
         transform: translate(0, -50%);
         z-index: -1;
+    }
+    .contacts .text--mb {
+        margin-left: 0;
     }
 
 

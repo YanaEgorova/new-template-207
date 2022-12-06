@@ -129,7 +129,7 @@
     margin-bottom: 2rem;
 }
 .hero-products {
-    background-image: linear-gradient(to top, #fff, 50%, #a0dcfe);
+    background-image: linear-gradient(to top, #fff, 50%, var(--third-brand-color));
 }
 
 @media screen and (min-width: 1440px) { 
